@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    background-color: #bcb4b4;
     color: #ffffff;
 }
 
@@ -16,7 +16,8 @@ h1 {
 h2 {
     font-size: 60px;
 }
-h4{
+
+h4 {
     color: rgb(61, 58, 58);
 }
 
@@ -65,7 +66,8 @@ p {
     margin-bottom: 50px;
     display: flex;
 }
-#midnight-deals-text{
+
+#midnight-deals-text {
     color: #ffffff;
 }
 
@@ -86,7 +88,7 @@ button {
 }
 
 .event {
-    background-image: linear-gradient(rgb(255, 170, 170), white) ;
+    background-image: linear-gradient(rgb(255, 170, 170), white);
     border-radius: 10px;
     max-width: 1320px;
     margin: auto;
@@ -128,9 +130,69 @@ button {
     max-width: 300px;
     color: black;
 }
-.celebtext-right{
+
+.celebtext-right {
     color: black;
 }
-#smallnw{
+
+#smallnw {
     padding-top: 50px;
+}
+
+.discount-se {
+    color: black;
+    text-align: center;
+    max-width: 1320px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.holiday-sale {
+    /* display: flex; */
+    position: relative;
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    border-radius: 10px 0px 10px 10px;
+    margin: auto;
+    margin-top: 420px;
+}
+
+#box-image {
+    position: absolute;
+    top: -100%;
+    right: 60%;
+}
+
+#box-image-2 {
+    position: absolute;
+    top: -190%;
+    right: 0%;
+}
+
+.discountamount {
+    width: 150px;
+    width: 150px;
+    background-color: #ff0000;
+    border: #ffffff solid 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: -170%;
+    right: 25%;
+    text-align: center;
+    padding: 50px;
+    transform: rotate(-35deg);
+}
+
+.choosegift {
+    width: 1320px;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.choosegift-text {
+    color: black;
+}
+.choosegift-images{
+    
 }
