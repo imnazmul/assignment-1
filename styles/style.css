@@ -13,6 +13,10 @@ h1 {
     font-size: 100px;
 }
 
+h2 {
+    font-size: 60px;
+}
+
 h3 {
     font-size: 40px;
 }
@@ -23,11 +27,11 @@ h3 {
     width: 1320px;
     margin: auto;
     margin-top: 50px;
-    background-image: url('images/Hero-banner.png');
+    background-image: url("/images/Hero-banner.png");
     border-radius: 16px;
 }
 
-.hero-text{
+.hero-text {
     position: absolute;
     margin-top: 80px;
     text-align: center;
@@ -35,13 +39,38 @@ h3 {
 
 }
 
-/* .header-main {
-    
-    justify-content: center;
-    align-items: center;
-} */
-.promo-text{
+.promo-text {
     text-align: center;
     padding-top: 60px;
     color: red;
+}
+
+#text-black-promo {
+    color: black;
+}
+
+.midnight-deals {
+    width: 1320px;
+    height: 601.963px;
+    background-image: url('/images/midnight.png');
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.midnight-deals-body {
+    padding-top: 50px;
+    padding-left: 50px;
+    max-width: 700px;
+    padding-bottom: 30px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    border-radius: 8px;
+    margin: 20px;
 }
