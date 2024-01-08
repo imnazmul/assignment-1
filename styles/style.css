@@ -29,13 +29,19 @@ p {
     font-size: 30px;
 }
 
+hr {
+    width: 1320px;
+    margin: auto;
+    color: #6c6c6c;
+}
+
 .header-main {
     position: relative;
     height: 600px;
     width: 1320px;
     margin: auto;
     margin-top: 50px;
-    background-image: url("/images/Hero-banner.png");
+    background-image: url("../images/Hero-banner.png");
     border-radius: 16px;
 }
 
@@ -60,7 +66,7 @@ p {
 .midnight-deals {
     width: 1320px;
     height: 601.963px;
-    background-image: url('/images/midnight.png');
+    background-image: url('../images/midnight.png');
     margin: auto;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -85,6 +91,11 @@ button {
     background-color: rgb(255, 0, 0);
     border-radius: 8px;
     margin: 20px;
+    transition: 500ms;
+    border: none;
+}
+button:hover{
+    border: #ffffff solid 5px;
 }
 
 .event {
@@ -197,6 +208,7 @@ button {
 
 .choosegift-images-main {
     padding: 5px;
+    transition: 800ms;
 }
 
 .newsletter {
@@ -249,14 +261,15 @@ footer {
 
 .company-info {
     width: 1320px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     font-style: normal;
-    display: block;
-    padding: 50px 140px 20px 140px;
+    display: flex;
+    padding: 100px 140px 50px 140px;
 }
 
 .company-info-more {
-    display: block;
+    flex: 1;
     text-align: right;
 }
 
@@ -272,15 +285,7 @@ footer {
     max-width: 350px;
 }
 
-
-hr {
-    width: 1320px;
-    margin: auto;
-    color: #6c6c6c;
-}
-
 .social-icons {
-    height: 50px;
     width: 50px;
     display: flex;
     margin: auto;
@@ -294,9 +299,14 @@ hr {
     margin: auto;
     text-align: left;
     display: flex;
+    padding: 50px;
 }
 
 .right-al {
     flex: 1;
     text-align: right;
+}
+
+.choosegift-images-main:hover{
+    rotate: 20deg;
 }
